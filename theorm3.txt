@@ -1,0 +1,46 @@
+Theorem 3: P→S,¬P→¬Q,P∨¬R,Q∨R ⊢ S
+This can be proven by using the laws of propositional logic, specifically the modus ponens, modus tollens, and disjunctive syllogism.
+
+Proof:
+
+Assume P→S, ¬P→¬Q, P∨¬R, and Q∨R are true.
+Using the law of disjunctive syllogism, we can infer that if P∨¬R and ¬P are true, then R must be false.
+Using the modus ponens, if P is true and P→S is true, then S must also be true
+Using the modus tollens, if ¬P→¬Q is true and Q is false, then ¬P is true
+Using the disjunctive syllogism, if P∨¬R is true and R is false, then P must be true.
+Therefore, if P→S, ¬P→¬Q, P∨¬R, and Q∨R are true, then S must also be true.
+Note: This proof uses the modus ponens, modus tollens and disjunctive syllogism rule of propositional logic.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

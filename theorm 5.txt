@@ -1,0 +1,44 @@
+Theorem 5: ¬Q∧¬S ⊢ (¬S∧¬Q)→¬(Q∨S)
+This theorem states that if ¬Q∧¬S is true, then (¬S∧¬Q)→¬(Q∨S) must also be true. This can be mathematically proven using the laws of propositional logic, specifically the contrapositive, De Morgan's laws and the material implication rule.
+
+Proof:
+
+Assume ¬Q∧¬S is true.
+Using De Morgan's laws, we can infer that if ¬Q∧¬S is true, then (¬Q∨¬S) must be true.
+Using the contrapositive, we can infer that if ¬(Q∨S) is true, then (Q∧S) must be false.
+Using De Morgan's laws again, we can infer that if (Q∧S) is false, then ¬Q∨¬S must be true.
+Then, (¬Q∨¬S)→¬(Q∨S) is true. (using the material implication rule of propositional logic, The material implication rule states that if a propositional formula of the form P → Q is true, then whenever P is true, Q must also be true. In this case, I inferred that (¬Q∨¬S)→¬(Q∨S) is true by assuming that (¬Q∨¬S) is true and showing that in that case ¬(Q∨S) must also be true)
+Note: This proof uses the contrapositive, De Morgan's laws and the material implication rule of propositional logic.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

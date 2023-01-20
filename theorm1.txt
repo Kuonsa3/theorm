@@ -1,0 +1,24 @@
+Theorem 1: R→P , P→S , R ⊢ S
+
+The theorem states that if R implies P, and P implies S, then R implies S. This can be proven using the rule of modus ponens, which states that if P implies Q and P is true, then Q must also be true.
+
+Proof (1):
+Assume R is true.
+Since R implies P, P must also be true (by modus ponens).
+Since P implies S, S must also be true (by modus ponens).
+Therefore, if R is true, then S must also be true. So, R implies S.
+Note: This proof is using the modus ponens rule of the propositional logic.
+
+Proof (2):
+Assume R, P, and S are propositional variables.
+Assume R → P and P → S are propositional formulas.
+Using the rule of modus ponens, we can infer that if R is true and R → P is true, then P must also be true.
+Similarly, if P is true and P → S is true, then S must also be true.
+Therefore, if R is true and R → P and P → S are true, then S must also be true.
+This can be represented by the propositional formula R → S, which is the conclusion of the theorem.
+In conclusion, R → P, P → S, R ⊢ S can be proven by using the Modus ponens rule in propositional logic
+
+
+
+
+

@@ -1,0 +1,31 @@
+Theorem 2: (R∧T)∨(R∧S) ⊢ (T∨S)∧R
+This theorem states that if (R∧T)∨(R∧S) is true, then (T∨S)∧R must also be true. This can be proven using the laws of propositional logic, specifically the distributive and associative laws.
+
+Proof:
+
+Assume (R∧T)∨(R∧S) is true.
+Using the distributive law, we can expand the left side of the implication as (R∨(R∧S))∧(T∨(R∧S))
+Using the associative law, we can rearrange the expanded form as (R∨R∧S)∧(T∨R∧S)
+Since R ∧ S is false, we can simplify the expanded form as R∧(T∨R)
+Using the associative law, we can rearrange the expanded form as (T∨R)∧R
+(T∨R)∧R is equivalent to (T∨S)∧R, by the commutative law
+Therefore, (R∧T)∨(R∧S) ⊢ (T∨S)∧R is true.
+Note: This proof uses the distributive, associative, and commutative laws of propositional logic.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

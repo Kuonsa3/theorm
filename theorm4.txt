@@ -1,0 +1,57 @@
+Theorem 4: (¬T→R)∧¬P,¬(¬P∧T) ⊢ R∨Q
+This theorem states that if (¬T→R)∧¬P, ¬(¬P∧T) are true, then R∨Q must also be true. This can be mathematically proven using the laws of propositional logic, specifically the contrapositive and De Morgan's laws.
+
+Proof:
+
+Assume (¬T→R)∧¬P, ¬(¬P∧T) are true.
+Using the contrapositive, we can infer that if ¬R is true, then T must be false.
+Using De Morgan's laws, we can infer that if ¬(¬P∧T) is true, then ¬¬P∨¬T must be true
+Using De Morgan's laws again, we can infer that if ¬¬P∨¬T is true, then P∨¬T must be true
+Using the associative law, we can rearrange the expanded form of P∨¬T as (P∨¬T)
+Using the distributive law, we can expand the expanded form as P∨(¬T∧T)
+Since ¬T∧T is false, we can simplify the expanded form as P
+Using the associative law, we can rearrange the expanded form of (¬T→R)∧¬P as (¬T→R)∧P
+Since T is false and ¬T is true, we can infer that R is true.
+Therefore, R∨Q is true.
+Note: This proof uses the contrapositive and De Morgan's laws of propositional logic.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
